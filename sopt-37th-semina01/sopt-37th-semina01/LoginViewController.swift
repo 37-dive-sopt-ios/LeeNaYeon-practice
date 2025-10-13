@@ -15,14 +15,14 @@ final class LoginViewController: UIViewController {
         label.textColor = .black
         label.textAlignment = .center
         label.numberOfLines = 2
-        label.font = UIFont(name: "Pretendard-Bold", size: 18)
+        label.font = .subhead1
         return label
     }()
     
     private let idTextField: UITextField = {
         let textField = UITextField(frame: CGRect(x: 20, y: 276, width: 335, height: 52))
         textField.placeholder = "아이디"
-        textField.font = UIFont(name: "Pretendard-SemiBold", size: 14)
+        textField.font = .subhead4
         textField.backgroundColor = .grey200
         textField.addLeftPadding()
         return textField
@@ -32,7 +32,7 @@ final class LoginViewController: UIViewController {
         let textField = UITextField(frame: CGRect(x: 20, y: 335, width: 335, height: 52))
         textField.placeholder = "비밀번호"
         textField.isSecureTextEntry = true
-        textField.font = UIFont(name: "Pretendard-SemiBold", size: 14)
+        textField.font = .subhead4
         textField.backgroundColor = .grey200
         textField.addLeftPadding()
         return textField
@@ -43,7 +43,7 @@ final class LoginViewController: UIViewController {
         button.backgroundColor = .primaryOrange
         button.setTitle("로그인하기", for: .normal)
         button.setTitleColor(.white, for: .normal)
-        button.titleLabel?.font = UIFont(name: "Pretendard-Bold", size: 18)
+        button.titleLabel?.font = .subhead1
         button.addTarget(self, action: #selector(loginButtonDidTap), for: .touchUpInside)
         return button
     }()
