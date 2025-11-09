@@ -207,6 +207,8 @@
 		};
 		513781012E9D32B100FEEED0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 513780ED2E9D32AF00FEEED0 /* sopt-37th-semina01 */;
+			baseConfigurationReferenceRelativePath = Week4/Config.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
@@ -270,6 +272,8 @@
 		};
 		513781022E9D32B100FEEED0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReferenceAnchor = 513780ED2E9D32AF00FEEED0 /* sopt-37th-semina01 */;
+			baseConfigurationReferenceRelativePath = Week4/Config.xcconfig;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
